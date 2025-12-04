@@ -79,36 +79,158 @@ Le projet se déroule en **2 phases** :
 8.  Notifications\
 9.  Livraison
 
+# 🔗 API REST --- Documentation Complète
+
+Cette section regroupe l'ensemble des endpoints API REST utilisés par
+HelloPay.
+
 ------------------------------------------------------------------------
 
-# 🔗 API REST -- Structure Générale
+# 🔐 Authentification
 
-### Auth
+### POST /auth/register
 
-    POST /auth/register
-    POST /auth/login
+Créer un utilisateur.
 
-### Produits
+### POST /auth/login
 
-    GET /products
-    POST /products
-    PUT /products/{id}
-    DELETE /products/{id}
+Connexion + génération du token JWT.
 
-### Achats fournisseurs
+------------------------------------------------------------------------
 
-    POST /purchases
-    GET /purchases
+# 🛒 Produits (Products)
 
-### Commandes
+### GET /products
 
-    POST /orders
-    GET /orders
+Liste des produits.
 
-### Paiements
+### GET /products/{id}
 
-    POST /payments
-    GET /payments/{id}
+Détails d'un produit.
+
+### POST /products
+
+Ajouter un produit.
+
+### PUT /products/{id}
+
+Modifier un produit.
+
+### DELETE /products/{id}
+
+Supprimer/désactiver un produit.
+
+------------------------------------------------------------------------
+
+# 🏭 Fournisseurs (Suppliers)
+
+### GET /suppliers
+
+Liste des fournisseurs.
+
+### POST /suppliers
+
+Créer un fournisseur.
+
+### GET /suppliers/{id}
+
+Afficher un fournisseur.
+
+------------------------------------------------------------------------
+
+# 📦 Achats Fournisseurs (Purchases)
+
+### POST /purchases
+
+Créer un achat fournisseur + items.
+
+### GET /purchases
+
+Liste des achats.
+
+### GET /purchases/{id}
+
+Détails (achat + lignes).
+
+------------------------------------------------------------------------
+
+# 👤 Utilisateurs (Users)
+
+### GET /users
+
+Liste des utilisateurs (admin only).
+
+### GET /users/{id}
+
+Profil utilisateur.
+
+### PUT /users/{id}
+
+Mise à jour profil.
+
+------------------------------------------------------------------------
+
+# 📆 Plans de Paiement
+
+### GET /payment-plans
+
+Liste des plans.
+
+### POST /payment-plans
+
+Créer un plan.
+
+### PUT /payment-plans/{id}
+
+Modifier un plan.
+
+### DELETE /payment-plans/{id}
+
+Désactiver.
+
+------------------------------------------------------------------------
+
+# 🛍️ Commandes (Orders)
+
+### POST /orders
+
+Créer une commande (génère automatiquement les échéances).
+
+### GET /orders
+
+Liste des commandes.
+
+### GET /orders/{id}
+
+Détails + échéances.
+
+------------------------------------------------------------------------
+
+# 📅 Échéances (Installments)
+
+### GET /orders/{id}/installments
+
+Liste des échéances d'une commande.
+
+------------------------------------------------------------------------
+
+# 💳 Paiements (Payments)
+
+### POST /payments
+
+Enregistrer un paiement d'échéance.
+
+### GET /payments/{id}
+
+Détails d'un paiement.
+
+------------------------------------------------------------------------
+
+# 🚚 Livraison
+
+### POST /orders/{id}/deliver
+
+Valider la livraison (uniquement si toutes les échéances sont payées).
 
 ------------------------------------------------------------------------
 
