@@ -56,8 +56,6 @@ Le projet se déroule en **2 phases** :
 -   Dashboard admin
 -   Espace client
 -   Authentification par token
--   Technologies recommandées : CI3 / Laravel / Node, MySQL,
-    Tailwind/Bootstrap
 
 ## Phase 2 -- Application Mobile
 
