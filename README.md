@@ -238,18 +238,9 @@ Valider la livraison (uniquement si toutes les échéances sont payées).
 
 ## ✔️ V1 -- Web
 
--   Produits
--   Paiement en tranches
--   Dashboard
-
 ## ⏳ V2 -- Mobile
 
--   Flutter app
--   Notifications push
-
 ## ⏳ V3 -- Marketplace
-
--   Marchands externes
 
 ------------------------------------------------------------------------
 
