@@ -236,11 +236,38 @@ Valider la livraison (uniquement si toutes les échéances sont payées).
 
 # 🗺️ Roadmap
 
-## ✔️ V1 -- Web
+## ✔️ **V1 -- Plateforme Web**
 
-## ⏳ V2 -- Mobile
+-   Gestion des produits\
+-   Gestion des fournisseurs\
+-   Gestion des achats et des stocks\
+-   Création de commandes et génération automatique des échéances\
+-   Paiement en plusieurs tranches\
+-   Dashboard admin\
+-   Livraison après paiement complet
 
-## ⏳ V3 -- Marketplace
+------------------------------------------------------------------------
+
+## ⏳ **V2 -- Application Mobile Flutter**
+
+-   Authentification via API\
+-   Paiement des échéances depuis mobile\
+-   Notifications push :
+    -   échéances\
+    -   retards\
+    -   validation de paiement\
+-   Interface client intuitive\
+-   Mode "scan QR" pour valider la livraison
+
+------------------------------------------------------------------------
+
+## ⏳ **V3 -- Extension Marketplace**
+
+-   Ajout de marchands externes\
+-   Système de commission HelloPay\
+-   Portefeuille électronique (solde interne)\
+-   API dédiée marchands\
+-   Tableau de bord marchand
 
 ------------------------------------------------------------------------
 
