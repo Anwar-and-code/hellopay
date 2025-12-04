@@ -10,11 +10,8 @@ installer et maintenir la base de données du projet **HelloPay**.
     /database
         /schema
             hellopay_schema.sql     → Schéma complet de la base
-        /migrations                 → Scripts d’évolution (optionnel)
-        /seeders                    → Données de test (optionnel)
-        /uml
-            hellopay_mcd.png        → Schéma conceptuel (optionnel)
-            hellopay_mld.png        → Schéma logique (optionnel)
+        /migrations                 → Scripts d’évolution 
+        /seeders                    → Données de test
     README.md
 
 ------------------------------------------------------------------------
@@ -148,6 +145,6 @@ Toute modification majeure du modèle de données doit être validée par :
 
 ------------------------------------------------------------------------
 
-# © HelloPay -- Fintech Côte d'Ivoire
+# © HelloPay
 
 Documentation interne du module base de données.
