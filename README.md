@@ -112,44 +112,6 @@ Le projet se déroule en **2 phases** :
 
 ------------------------------------------------------------------------
 
-# ⚙️ Installation
-
-## 1. Cloner le projet
-
-    git clone https://github.com/votre-repo/HelloPay.git
-    cd HelloPay
-
-## 2. Fichier .env
-
-    APP_ENV=local
-    APP_KEY=xxxx
-    DB_HOST=localhost
-    DB_NAME=hellopay
-    DB_USER=root
-    DB_PASS=
-
-## 3. Installer les dépendances
-
-PHP :
-
-    composer install
-
-Node :
-
-    npm install
-
-## 4. Lancer l'API
-
-PHP :
-
-    php spark serve
-
-Node :
-
-    npm start
-
-------------------------------------------------------------------------
-
 # 🗺️ Roadmap
 
 ## ✔️ V1 -- Web
@@ -166,20 +128,6 @@ Node :
 ## ⏳ V3 -- Marketplace
 
 -   Marchands externes
-
-------------------------------------------------------------------------
-
-# 🤝 Contribution
-
-1.  Fork\
-2.  Nouvelle branche\
-3.  PR
-
-------------------------------------------------------------------------
-
-# 📄 Licence
-
-MIT
 
 ------------------------------------------------------------------------
 
