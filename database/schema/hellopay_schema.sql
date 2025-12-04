@@ -46,10 +46,11 @@ CREATE TABLE purchase_items (
 
 CREATE TABLE users (
     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(150) NOT NULL,
-    phone VARCHAR(50) UNIQUE,
-    email VARCHAR(150) UNIQUE,
-    password_hash VARCHAR(255),
+    nom VARCHAR(150) NOT NULL,
+    prenom VARCHAR(150) NOT NULL,
+    date_naissance DATE NOT NULL,
+    phone VARCHAR(10) UNIQUE,
+    password_code_hash VARCHAR(4),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
