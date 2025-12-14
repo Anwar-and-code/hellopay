@@ -1,0 +1,13 @@
+[2025-12-13T17:21:52.263Z] INFO: Get Users paginated success: count=0 page=1 limit=10
+[2025-12-13T17:22:10.409Z] INFO: Get Users paginated success: count=0 page=1 limit=10
+[2025-12-13T17:22:18.590Z] INFO: Get all users success: count=3
+[2025-12-13T17:23:19.388Z] INFO: Get Users paginated success: count=0 page=1 limit=10
+[2025-12-13T17:23:32.973Z] INFO: Get Users paginated success: count=1 page=1 limit=10
+[2025-12-13T17:23:50.666Z] INFO: Get Users paginated success: count=1 page=1 limit=10
+[2025-12-13T17:35:15.557Z] INFO: Get Users paginated success: count=1 page=1 limit=10
+[2025-12-13T17:35:27.342Z] INFO: Get all users success: count=0
+[2025-12-13T17:35:45.753Z] INFO: Get all users success: count=0
+[2025-12-13T17:36:20.223Z] INFO: Get all users success: count=1
+[2025-12-13T17:36:25.147Z] INFO: Get all users success: count=1
+[2025-12-13T17:36:32.778Z] INFO: Get all users success: count=3
+[2025-12-13T17:36:43.670Z] INFO: Get Users paginated success: count=3 page=1 limit=10

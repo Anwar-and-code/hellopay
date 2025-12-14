@@ -1,0 +1,70 @@
+[2025-12-09T16:17:35.840Z] INFO: Do the connexion
+[2025-12-09T16:17:35.841Z] ERROR: Login failed for email: bedelcoulibaly8@gmail.com he is not found
+[2025-12-09T17:03:33.418Z] ERROR: Login failed for email: bedelcoulibaly8@gmail.com he is not found
+[2025-12-09T17:18:05.046Z] ERROR: Login failed for email: john@example.com he is not found
+[2025-12-09T17:20:25.597Z] ERROR: Login failed for email: bedelcoulibaly8@gmail.com he is not found
+[2025-12-09T17:20:29.119Z] ERROR: Login failed for email: john@example.com he is not found
+[2025-12-09T17:28:12.663Z] ERROR: Error creating user: Illegal arguments: undefined, number
+Stack: Error: Illegal arguments: undefined, number
+    at _async (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/bcryptjs/umd/index.js:233:15)
+    at /Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/bcryptjs/umd/index.js:245:11
+    at new Promise (<anonymous>)
+    at Object.hash (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/bcryptjs/umd/index.js:244:16)
+    at AuthService.<anonymous> (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/dist/services/auth.service.js:98:51)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/dist/services/auth.service.js:17:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-12-09T17:32:23.668Z] INFO: Create user success: john@example.com
+[2025-12-09T17:34:06.014Z] ERROR: Create user failed, email already exists: john@example.com
+[2025-12-09T17:34:37.551Z] INFO: Create user success: Anwar@example.com
+[2025-12-09T17:34:47.354Z] INFO: Create user success: Anwar@example.coms
+[2025-12-09T17:35:25.020Z] ERROR: Create user failed, email already exists: Anwar@example.coms
+[2025-12-09T17:35:31.867Z] ERROR: Create user failed, phone already exists: +2250707070707
+[2025-12-09T17:56:52.431Z] ERROR: Create user failed, phone already exists: +2250707070707
+[2025-12-09T17:57:14.234Z] ERROR: Create user failed, phone already exists: undefined
+[2025-12-09T17:57:24.138Z] ERROR: Create user failed, phone already exists: undefined
+[2025-12-09T17:57:49.878Z] ERROR: Create user failed, email already exists: undefined
+[2025-12-09T17:58:19.114Z] ERROR: Create user failed, email already exists: undefined
+[2025-12-09T17:59:27.630Z] ERROR: Create user failed, email already exists: undefined
+[2025-12-09T18:00:08.068Z] ERROR: Create user failed, email already exists: undefined
+[2025-12-09T18:01:14.096Z] ERROR: Create user failed, email already exists: undefined
+[2025-12-09T18:04:21.682Z] ERROR: Login failed for email: bedelcoulibaly8@gmail.com he is not found
+[2025-12-09T18:04:30.763Z] ERROR: Error in the login process Illegal arguments: undefined, string
+Stack: Error: Illegal arguments: undefined, string
+    at _async (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/bcryptjs/umd/index.js:305:15)
+    at /Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/bcryptjs/umd/index.js:335:11
+    at new Promise (<anonymous>)
+    at Object.compare (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/bcryptjs/umd/index.js:334:16)
+    at AuthService.<anonymous> (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/dist/services/auth.service.js:66:46)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/dist/services/auth.service.js:17:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-12-09T18:05:01.032Z] ERROR: Create user failed, email already exists: undefined
+[2025-12-09T18:09:06.168Z] ERROR: Create user failed, phone already exists: undefined
+[2025-12-09T18:10:42.227Z] ERROR: Create user failed, phone already exists: undefined
+[2025-12-09T18:11:53.521Z] ERROR: Create user failed, phone already exists: +2250707070707
+[2025-12-09T18:12:06.663Z] INFO: Create user success: bedelcoulibaly8@gmail.com
+[2025-12-09T21:13:59.007Z] INFO: Get all users success: count=4
+[2025-12-09T21:15:27.541Z] INFO: Get all users success: count=4
+[2025-12-09T21:15:30.802Z] INFO: Get user success: Anwar@example.com
+[2025-12-09T21:15:38.035Z] INFO: Get user success: Anwar@example.coms
+[2025-12-09T21:15:42.134Z] INFO: Get user success: bedelcoulibaly8@gmail.com
+[2025-12-09T21:15:59.883Z] INFO: Update user success: bedelcoulibaly8@gmail.com
+[2025-12-09T21:16:06.585Z] INFO: Get user success: bedelcoulibaly8@gmail.com
+[2025-12-09T21:25:06.144Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:29:07.646Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:30:35.180Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:31:22.683Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:32:45.018Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:32:46.446Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:33:10.124Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:33:41.520Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:35:07.438Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:35:51.240Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T21:36:04.867Z] INFO: Get users paginated success: count=0 page=2 limit=10
+[2025-12-09T21:36:12.866Z] INFO: Get users paginated success: count=0 page=3 limit=10
+[2025-12-09T21:36:24.787Z] INFO: Get users paginated success: count=4 page=1 limit=10
+[2025-12-09T22:34:03.828Z] INFO: Get all users success: count=4
+[2025-12-09T22:34:23.846Z] INFO: Get Users paginated success: count=4 page=1 limit=10
+[2025-12-09T22:37:14.334Z] INFO: Get Users paginated success: count=3 page=1 limit=10
+[2025-12-09T22:44:54.383Z] INFO: Get Users paginated success: count=3 page=1 limit=10

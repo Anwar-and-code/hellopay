@@ -1,0 +1,25 @@
+[2025-12-10T09:25:38.134Z] INFO: Create supplier success: ACME Supplies
+[2025-12-10T09:26:55.527Z] INFO: Update supplier success: id=1
+[2025-12-10T09:27:15.624Z] INFO: Update supplier success: id=1
+[2025-12-10T09:27:37.270Z] INFO: Create supplier success: ACME Supplies_
+[2025-12-10T09:29:02.258Z] INFO: Delete supplier success: id=1
+[2025-12-10T09:29:41.094Z] INFO: Update supplier success: id=2
+[2025-12-10T09:33:21.149Z] ERROR: Error creating category: Field 'slug' doesn't have a default value
+Stack: QueryFailedError: Field 'slug' doesn't have a default value
+    at Query.onResult (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/typeorm/driver/mysql/MysqlQueryRunner.js:165:37)
+    at Query.execute (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/mysql2/lib/base/connection.js:475:34)
+    at PacketParser.onPacket (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/mysql2/lib/base/connection.js:93:12)
+    at PacketParser.executeStart (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/macbookpro/Documents/app/hellopay/application/hello-pay-backend/node_modules/mysql2/lib/base/connection.js:100:25)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[2025-12-10T09:35:09.913Z] INFO: Create category success: Électronique
+[2025-12-10T09:35:21.751Z] INFO: Create category success: Électronique_
+[2025-12-10T09:36:09.971Z] INFO: Update category success: id=2
+[2025-12-10T09:36:32.605Z] INFO: Delete category success: id=2
+[2025-12-10T10:00:51.736Z] INFO: Get all users success: count=3
+[2025-12-10T10:01:32.179Z] INFO: Get Users paginated success: count=3 page=1 limit=10
+[2025-12-10T10:24:41.037Z] INFO: Get Users paginated success: count=3 page=1 limit=10
